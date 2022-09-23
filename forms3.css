@@ -1,0 +1,144 @@
+/* margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px     */
+/* /html/body/iframe[3] */
+/* (16px=1em). */
+
+fieldset {width: 265px;
+    background-color: #F8F0E3;
+}
+fieldset {
+    border: 3px solid #F8F0E3;
+}
+fieldset:hover {
+    border: 3px solid green;
+}
+select:focus, select:hover {
+    border: 3px solid green;
+}
+input[type="checkbox"], input[type="radio"] {margin: 8px;
+}
+/* .hover:hover {
+    transition-duration: 2s;
+    transition-timing-function:ease-in
+} */
+.btn_s {
+    transition-duration: 0.4s;
+}
+.btn_s:hover {
+    transform: translateY(-3px);
+
+}
+.hover:focus {
+    outline: none;
+     box-shadow:inset #719ece 0 0 6px;
+    border: 3px solid;
+    border-color: green;
+}
+/* #491aca */
+.hover {
+    border: 3px solid;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 15px;
+}
+#submit {
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    direction:ltr;
+    position: relative;
+    top: -57px;
+}
+/* .btn_s {
+    animation-duration: 3s;
+} */
+.position {
+    position: relative;
+    left: 15px;
+}
+.border {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+label {
+    margin-left: -3px;
+}
+.positionii {
+    position: relative;
+    left: 8px;
+}
+.margini {
+    margin-left: 5px;
+}
+body {
+    background-color: #F8F0E3;
+}
+h1 {
+    font-family: serif;
+    color: green;
+    position: relative;
+    left: 90px;
+    bottom: -15px;
+}
+img {
+    position: absolute;
+    left: 102.1px;
+    top: 8.5px;
+    height: 30px;   
+}
+.wid {
+    width: 260px;
+    margin-top: 5px;
+}
+select {
+    width: 200px;
+    text-align: center;
+}
+.hover {
+    transition-duration: 1.6s;
+    transition-timing-function: ease-out;
+}
+.hover:focus {
+    border: 3px solid green;
+}
+.check:checked + label {
+    color: green;
+}
+a {
+    text-decoration: none;
+}
+.a1 {
+    transition-duration: 0.2s;
+}
+.a1:hover {
+    color: rgb(2, 93, 2); 
+    transform: translateY(-1px);
+}
+input[type="radio"]:checked + label {
+    color: green;
+}
+* {
+    font-family: sans-serif;
+}
+legend {
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+}
+.check {
+    accent-color: green;
+}
+input[type="radio"] {
+    accent-color: green;
+}
+

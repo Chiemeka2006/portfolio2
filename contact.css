@@ -1,0 +1,122 @@
+
+td {
+    color: black;
+}
+h1 {
+    color: black;
+}
+#left {
+    text-align: left;
+}
+a:link {text-decoration: none; 
+       text-transform: capitalize; 
+       color: white;
+   }
+   a:visited {text-decoration: none; 
+       text-transform: capitalize; 
+       color: whitesmoke;
+   }
+   #margin {margin-left: 15px;
+    font-family: sans-serif;
+   }
+   .margi {margin-left: 15px;
+    font-family: sans-serif;
+   }
+   body {
+    background-image: url("/images/background_image1.jfif");
+}
+.ref {
+    background-color: gray;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    transition-duration: 2ms;
+}
+.ref:hover {
+    border: 2px solid rgb(94, 93, 93);
+    background-color: rgb(94, 93, 93);
+}
+hr {
+    position: relative;
+    top: 5px;
+    border: 2px solid black;
+}
+input, textarea {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+}
+.wid {
+    width: 275px;
+}
+input:focus, textarea:focus {
+    border: 2px solid rgb(125, 125, 231);
+    box-shadow: inset #719ece 0 0 4px;
+}
+input:focus, textarea:focus {
+    animation-name: bleu;
+    animation-duration: 2s;
+}
+@keyframes bleu {
+    0% {border: 2px solid black;}
+    50% {border: 2px solid rgb(125, 125, 231);box-shadow: inset #719ece 0 0 4px;}
+    100% {border: 2px solid rgb(125, 125, 231);box-shadow: inset #719ece 0 0 4px;}
+}
+input[type="submit"] {
+    border: 2px solid black;
+    background-color: black;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -10px;
+    left: 12px;
+    width: 290px;
+    font-weight: bold;
+}
+textarea {
+    width: 275px;
+}
+.anim {
+    transition-duration: 20ms;
+    transition-timing-function: ease-in-out;
+}
+.anim:hover {
+    transform: translateY(-3px);
+}
+.pos {
+    font-family: sans-serif;
+    position: relative;
+    left: 0px;
+}
+img {
+    width: 20px;
+}
+.icons {
+    border-spacing: 5px;
+    position: relative;
+    left: 7px;
+}
+.form_table {
+    position: relative;
+    top: -10px;
+}
+td {
+    width: 30px;
+  }
+  .a2:link {
+    color: black;
+  }
+  .a2:visited {
+    color: black;
+  }
+  .a2 {
+    transition: 1s;
+  }
+  a.a2:hover {
+    color:#719ece;
+    text-shadow: 0 0 0.5px #719ece;
+    text-decoration: underline;
+  }
+
+   /* #82302a */

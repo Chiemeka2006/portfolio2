@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="forms3.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html" title="Go to HomePage">
+    <h1 class="a1"><img src="/images/checked.png" alt="" class="">Survey</h1>
+</a>
+    <form>
+    <table cellspacing="6px">
+        <tr>
+   <!-- <td> <label for="fname" class="margini">Name</label></td> -->
+</tr>
+<tr>
+   <td> <input type="text" placeholder="Name" required size="35" class="hover positionii" autofocus id="fname"></td>
+</tr>
+<tr>
+    <!-- <td><label for="email" class="margini">Email</label></td> -->
+</tr>
+<tr>
+    <td><input type="email" name="email" id="email" required size="35" class="hover positionii" placeholder="Email"></td>
+</tr>
+<tr>
+    <!-- <td><label for="password" class="margini">Password</label></td> -->
+</tr>
+<tr>
+    <td><input type="password" name="password" id="password" minlength="5" maxlength="35" size="35" class="hover positionii" placeholder="Password"></td>
+</tr>
+<tr>
+    <!-- <td><label for="Cpass" class="margini">Confirm Password</label></td> -->
+</tr>
+<tr>
+    <td><input type="password" name="Confirm Password" id="Cpass" maxlength="25" minlength="5" size="35" class="hover positionii" placeholder="Confirm Password"></td>
+</tr>
+<tr>
+<td><input type="text" name="" id="campus_" list="campus" class="hover position positionii wid" placeholder="Name Of Campus" autocomplete="on"></td>
+
+</tr>
+</table>
+<br>
+<fieldset class="position">
+<legend>Favourite color</legend>
+<input type="radio" name="color" id="red">
+<label for="red">Red</label><br><input type="radio" name="color" id="beige">
+<label for="beige">Beige</label><br><input type="radio" name="color" id="Torquoise">
+<label for="Torquoise">Torquoise</label><br><input type="radio" name="color" id="Teal">
+<label for="Teal">Teal</label>
+</fieldset>
+<br>
+<fieldset class="position">
+    <legend>Favourite Days of the week</legend>
+<input type="checkbox" name="" id="monday" class="check"><label for="monday"> Monday</label><br>
+<input type="checkbox" name="" id="tuesday" class="check"><label for="tuesday"> Tuesday</label><br>
+<input type="checkbox" name="" id="wednesday" class="check"><label for="wednesday"> Wednesday</label><br>
+<input type="checkbox" name="" id="thursday" class="check"><label for="thursday"> Thursday</label><br>
+<input type="checkbox" name="" id="friday" class="check"><label for="friday"> Friday</label><br>
+<input type="checkbox" name="" id="saturday" class="check"><label for="saturday"> Saturday</label><br>
+<input type="checkbox" name="" id="sunday" class="check"><label for="sunday"> Sunday</label>
+</fieldset><br>
+<label for="months" class="position bottom bold">Favourite Month</label><br>
+<select name="Favourite Month" id="months" class="position border">
+<optgroup label="Spring">
+    <option value="">March</option>
+<option value="">April</option>
+<option value="">May</option>
+</optgroup>
+<optgroup label="Summer">
+<option value="">June</option>
+<option value="">July</option>
+<option value="">August</option>
+</optgroup>
+<optgroup label="Fall">
+<option value="">September</option>
+<option value="">October</option>
+<option value="">November</option>
+</optgroup>
+<optgroup label="Winter">
+    <option value="">December</option>
+    <option value="" selected>January</option>
+    <option value="">Febuary</option>
+    </optgroup>
+</select><br>
+<br>
+<!-- <label for="campus_" class="position bottom">Name of Campus</label> -->
+<br>
+<datalist id="campus">
+<option value="Town Campus">Town Campus</option>
+<option value="Uphill Campus">Uphill Campus</option>
+<option value="Dexters Campus">Dexters Campus</option>
+<option value="Aluta Campus">Aluta Campus</option>
+</datalist><br>
+<br>
+<div id="trans">
+<button type="submit" style="width: 70px;margin: 10px;" id="submit" class="position btn_s btn_s_2">Submit</button>
+</div>
+</form>
+</body>
+</html>
